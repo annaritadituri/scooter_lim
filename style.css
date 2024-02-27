@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 5%;
+    border-radius: 2%;
+}
+
+nav {
+    background-color: rgb(101, 216, 65);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+header {
+    color: rgb(101, 216, 65);
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+header > h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+}
+
+header > img {
+    height: 120px;
+    width: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+main {
+    color: white;
+}
+
+h2 {
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.carica {
+    display: block;
+    height: 30px;
+    border-radius: 10px;
+}
+#high-charge {
+    background-color: rgb(93, 191, 64);
+    width: 60%;
+}
+
+#half-charge {
+    background-color: rgb(236, 181, 100);
+    width: 40%;
+    
+}
+
+#low-charge {
+    background-color: rgb(177, 74, 70);
+    width: 20%;
+}
